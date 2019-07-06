@@ -95,7 +95,8 @@ class Controller:
             if piece.isValid(position,kingpos,self.board,piece.color):
                 return True
 
-    # enumurating numbers of move avaliable for the computer
+    # AI PART
+    
     def AI_pickTheMove(self,board,depth):
         next_move = self.mini_maxRoot(board,DEPTH)
         print ("AI next move:", next_move)
