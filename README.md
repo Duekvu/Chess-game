@@ -1,6 +1,4 @@
 ## Python Chess Game
-README for 4610 AI Project
-
 Make sure both files (chess.py and pawn.py) are in the same working directory
 
 To start the game run chess.py
